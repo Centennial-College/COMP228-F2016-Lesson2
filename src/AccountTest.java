@@ -9,19 +9,11 @@ import java.util.Scanner;
 public class AccountTest {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-
-		Account myAccount = new Account();
+		Account acc1 = new Account("Kevin");
+		Account acc2 = new Account("Ostap");
 		
-		System.out.printf("Initial name is: %s%n%n", myAccount.getName());
-		
-		// Ask user for input
-		System.out.println("Please enter the name: ");
-		myAccount.setName(input.nextLine());
-		System.out.println();
-		
-		System.out.printf("Name in object myAccount is: %s%n%n", myAccount.getName());
-
+		System.out.printf("Account1 name is %s%n", acc1.getName());
+		System.out.printf("Account2 name is %s%n", acc2.getName());
 	}
 
 }

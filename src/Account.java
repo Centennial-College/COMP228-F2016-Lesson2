@@ -9,6 +9,17 @@ public class Account {
 	// Account name. Accessible only within this class
 	private String _name;
 
+	// CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	/**
+	 * Constructor that takes one string argument for name for Account object
+	 * 
+	 * @public
+	 * @constructor
+	 * @param name
+	 */
+	public Account(String name) {
+		this._name = name;
+	}
 
 	// PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	/**
