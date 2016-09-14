@@ -2,6 +2,7 @@
  * This class represents a BankAccount
  * 
  * @author kevinma
+ * @date Wednesday, September 14, 2016
  *
  */
 public class Account {
@@ -21,7 +22,7 @@ public class Account {
 		this._name = name;
 	}
 
-	// PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	// GETTERS AND SETTERS +++++++++++++++++++++++++++++++++++++++++++++++++++
 	/**
 	 * Setter method for _name
 	 * 
